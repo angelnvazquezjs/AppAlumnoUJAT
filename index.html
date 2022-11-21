@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Alumnos</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <div class="contenido-hero">
+            <h2>ALUMNOS LAB DISPOSITIVOS MOVILES</h2>
+        </div>
+    </div>
+
+    <div id="contacto" class="contacto">
+        <h2>ALUMNOS</h2>
+        <form class="formulario" id="formulario" action="#" method="POST">
+            <legend>Rellene todos los campos</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" autofocus required>
+                </div>
+                <div class="campo">
+                    <label>Apellido Paterno</label>
+
+                    <input type="text" id="apellidoPaterno" name="apellidoPaterno" placeholder="Apellido Paterno" required>
+                </div>
+                <div class="campo">
+                    <label>Apellido Materno</label>
+
+                    <input type="text" id="apellidoMaterno" name="apellidoMaterno" placeholder="Apellido Materno" required>
+                </div>
+
+                <div class="campo">
+                    <label>Carrera</label>
+
+                    <input type="text" id="carrera" name="carrera" placeholder="Carrera" required>
+                </div>
+
+                <div class="campo">
+                    <label>Matricula</label>
+
+                    <input type="text" id="matricula" name="matricula" placeholder="Matricula" required>
+                </div>
+
+            </div><!--.contenedor-campos-->
+            <div class="enviar">
+                <input class="boton" id="btnGuardar" type="submit" value="Guardar">
+            </div>
+        </form>
+    </div>
+    <br> <br>
+    <div class="contenedor sombra" id="contenedor-sombra">
+        
+    </div>
+
+
+    <script type="module" src="./js/index.js"></script>
+    
+</body>
+
+
+<footer class="footer">
+    <p>Todos los derechos reservados. Angel Nicolas Vazquez Lopez, Miguel Alejandro Garcia Aguilar Freelancer</p>
+</footer>
+</html>
